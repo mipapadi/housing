@@ -125,12 +125,6 @@ when SoldAsVacant = 'N' then 'No'
 else SoldAsVacant
 end
 
-case
-when SoldAsVacant = 'Y' then 'Yes'
-when SoldAsVacant = 'N' then 'No'
-else SoldAsVacant
-end
-
 -------------------------------------------------------------------------
 
 -- Remove duplicates
